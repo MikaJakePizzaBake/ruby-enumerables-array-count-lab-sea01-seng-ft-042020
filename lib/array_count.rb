@@ -4,7 +4,6 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  # Return tarray = [1,2,"hi"]
- array.count {|n| n.class != String}
+ array.count {|n| n.length = 0}
 
 end
